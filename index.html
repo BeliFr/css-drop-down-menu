@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/3992c15c73.js" crossorigin="anonymous"></script>
+  <title>Menu responsive</title>
+  <style>*{box-sizing: border-box;margin:0;padding:0;text-decoration: none;list-style: none;}.menu__nav{background-color: black;display:flex;height: 80px;width: 100%;}.menu__nav--nav_links{width: 80%;height: 100%;display: flex;align-items: center;justify-content: space-around;}.menu__nav--nav_links li{ display:inline-block;line-height: 80px;}.menu__nav--links--enlace, .menu__nav--links--enlace--redes {color:#fff;font-size:1.rem;padding: 2px 3px;border-radius: 3px;}.menu__nav--links--enlace:hover, .menu__nav--links--enlace--redes:hover{background-color: #FB6F92;transition: .5s;}.menu__nav--label{font-size: 30px;color: #ffffff;float: right;line-height: 80px;margin-right: 40px;cursor:pointer;display:none;}.links__redes{width:10%;height: 100%;display: flex;align-items: center;justify-content: space-around;}.menu__nav--links--redes{color:#fff;font-size:1.3rem;padding: 7px 13px;border-radius: 3px;}.menu__nav--menu{height:25px;float: left;line-height: 80px;margin-top:20px ;cursor:pointer;display: none;}#menu__nav--check{display:none;}@media(max-width:1052px){.menu__nav{padding-left: 10px;}.menu__nav--links--enlace{font-size: .8rem;}}@media(max-width: 800px){.menu__nav--menu{display:block;}.menu__nav--label{display: block;}.menu__nav--nav_links{position: fixed;z-index: 1;display: block;width: 100%;height: 100vh;background: rgba(10, 10, 10, 0.9);top:80px;right:100%;text-align: center;transition: all .5s;}.menu__nav--nav_links > li{display: block;width: 100%;padding-left:5%;height: fit-content;position:relative;cursor:pointer;}.menu__nav--nav_links > li:hover{background-color:#FB6F92;transition: all 0.75s;}.menu__nav--links--enlace{font-size: 2 rem ;text-align: right;}.links__redes{width:70%;height: 15%;margin-inline:auto;position: relative;align-items: end;margin-top:20px ;}.links__redes::before {content: attr(mensaje);position: absolute; width: fit-content;height: fit-content;font-size:20px;left:15%;top:0;color:#ffffff;}.menu__nav--links--enlace:hover{background: none;color: #FB6F92;}#menu__nav--check:checked ~ ul {right:0;}.menu__nav--links--redes{padding: 0;border-radius: 3px;display: inline-block;}}
+</style>
+</head>
+<body>
+  <header class="header" id="header">
+  <nav class="menu__nav" id="navbar">
+    <input type="checkbox" id="menu__nav--check">
+    
+    <label for="menu__nav--check" class="menu__nav--label">
+      <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+    </label>
+    <ul class="menu__nav--nav_links">
+      <li><a href="#" class="menu__nav--links--enlace"> categoria</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"> categoria</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"> categoria</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"> categoria</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"> categoria</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"> categoria</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"> categoria</a></li>
+      <li><a href="#" class="menu__nav--links--enlace">categoria</a></li>
+      <li><a href="#" class="menu__nav--links--enlace"> categoria</a></li>
+      <section class="links__redes" mensaje="SÍGUENOS EN NUESTRAS REDES:">
+        <li><a href="#" class="menu__nav--links--enlace--redes" >red </a></li>
+        <li><a href="#" class="menu__nav--links--enlace--redes" >red </a></li>
+        <li><a href="#" class="menu__nav--links--enlace--redes" >red </a></li>
+        <li><a href="#" class="menu__nav--links--enlace--redes" >red </a></li>
+      </section>
+      </ul>
+  </nav>
+  <section>
+    
+</section>
+<footer></footer> 
+</body>
+</html>
